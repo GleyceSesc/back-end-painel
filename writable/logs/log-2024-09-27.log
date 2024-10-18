@@ -1,0 +1,18 @@
+INFO - 2024-09-27 16:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 16:02:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-27 16:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:02:33 --> WpOrg\Requests\Exception: cURL error 28: Operation timed out after 10008 milliseconds with 0 bytes received
+[Method: GET, Route: cliente/index]
+in VENDORPATH\rmccue\requests\src\Transport\Curl.php on line 490.
+ 1 VENDORPATH\rmccue\requests\src\Transport\Curl.php(219): WpOrg\Requests\Transport\Curl->process_response('', [...])
+ 2 VENDORPATH\rmccue\requests\src\Requests.php(469): WpOrg\Requests\Transport\Curl->request('https://wwws.sescmg.com.br/api/cadun/consumidor/consultar', [...], '{}', [...])
+ 3 VENDORPATH\rmccue\requests\src\Requests.php(342): WpOrg\Requests\Requests::request('https://wwws.sescmg.com.br/api/cadun/consumidor/consultar', [...], '{}', 'POST', [...])
+ 4 APPPATH\Controllers\BaseController.php(277): WpOrg\Requests\Requests::post('https://wwws.sescmg.com.br/api/cadun/consumidor/consultar', [...], '{}')
+ 5 APPPATH\Controllers\Cliente.php(45): App\Controllers\BaseController->request('https://wwws.sescmg.com.br/api/cadun/consumidor/consultar', 'post', '{}', null, true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

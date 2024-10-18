@@ -1,0 +1,626 @@
+CRITICAL - 2024-09-13 12:21:28 --> Exception: Ocorreu um erro ao pegar dados da tabela 
+[Method: DELETE, Route: usuario/4]
+in APPPATH\Controllers\BaseController.php on line 183.
+ 1 APPPATH\Models\Usuario_Perfil.php(31): App\Controllers\BaseController->getAll(null, 1, 'asc', [...], '*')
+ 2 APPPATH\Models\Usuario.php(65): App\Models\Usuario_Perfil->get_usuario_perfil('USUARIO_ID', '4')
+ 3 APPPATH\Controllers\Usuario.php(73): App\Models\Usuario->deletedUser('ID', '4')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuario->delete('4')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 12:23:28 --> Exception: Ocorreu um erro ao pegar dados da tabela 
+[Method: DELETE, Route: usuario/4]
+in APPPATH\Controllers\BaseController.php on line 183.
+ 1 APPPATH\Models\Usuario_Perfil.php(31): App\Controllers\BaseController->getAll(null, 1, 'asc', [...], '*')
+ 2 APPPATH\Models\Usuario.php(65): App\Models\Usuario_Perfil->get_usuario_perfil('USUARIO_ID', '4')
+ 3 APPPATH\Controllers\Usuario.php(73): App\Models\Usuario->deletedUser('ID', '4')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuario->delete('4')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-13 12:28:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting from a character string to uniqueidentifier.
+CRITICAL - 2024-09-13 12:28:06 --> Exception: Ocorreu um erro ao pegar dados da tabela USUARIO
+[Method: GET, Route: usuario/4]
+in APPPATH\Controllers\BaseController.php on line 183.
+ 1 APPPATH\Models\Usuario.php(25): App\Controllers\BaseController->getAll('USUARIO', 1, 'asc', [...], '*')
+ 2 APPPATH\Controllers\Usuario.php(36): App\Models\Usuario->getUsuario('UUID', '4')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuario->show('4')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:47:14 --> TypeError: usort(): Argument #1 ($array) must be of type array, null given
+[Method: GET, Route: sub_categoria/4]
+in APPPATH\Models\SubCategoria.php on line 34.
+ 1 APPPATH\Models\SubCategoria.php(34): usort(null, Object(Closure))
+ 2 APPPATH\Controllers\sub_categoria.php(25): App\Models\SubCategoria->get_sub_categoria()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('4')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:47:51 --> ErrorException: Undefined property: stdClass::$dados
+[Method: GET, Route: sub_categoria/4]
+in APPPATH\Models\SubCategoria.php on line 38.
+ 1 APPPATH\Models\SubCategoria.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$dados', 'C:\\WEBSERVER\\sites\\painel-admin-cadUnico\\back-end\\app\\Models\\SubCategoria.php', 38)
+ 2 APPPATH\Controllers\sub_categoria.php(25): App\Models\SubCategoria->get_sub_categoria()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('4')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:47:53 --> ErrorException: Undefined property: stdClass::$dados
+[Method: GET, Route: sub_categoria/4]
+in APPPATH\Models\SubCategoria.php on line 38.
+ 1 APPPATH\Models\SubCategoria.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$dados', 'C:\\WEBSERVER\\sites\\painel-admin-cadUnico\\back-end\\app\\Models\\SubCategoria.php', 38)
+ 2 APPPATH\Controllers\sub_categoria.php(25): App\Models\SubCategoria->get_sub_categoria()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('4')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:48:58 --> ErrorException: Undefined property: stdClass::$dados
+[Method: GET, Route: sub_categoria/4]
+in APPPATH\Models\SubCategoria.php on line 38.
+ 1 APPPATH\Models\SubCategoria.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$dados', 'C:\\WEBSERVER\\sites\\painel-admin-cadUnico\\back-end\\app\\Models\\SubCategoria.php', 38)
+ 2 APPPATH\Controllers\sub_categoria.php(25): App\Models\SubCategoria->get_sub_categoria()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('4')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:49:33 --> ErrorException: Undefined property: stdClass::$dados
+[Method: GET, Route: sub_categoria/4]
+in APPPATH\Models\SubCategoria.php on line 38.
+ 1 APPPATH\Models\SubCategoria.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$dados', 'C:\\WEBSERVER\\sites\\painel-admin-cadUnico\\back-end\\app\\Models\\SubCategoria.php', 38)
+ 2 APPPATH\Controllers\sub_categoria.php(25): App\Models\SubCategoria->get_sub_categoria()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('4')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:49:42 --> ErrorException: Undefined property: stdClass::$dados
+[Method: GET, Route: sub_categoria/4]
+in APPPATH\Models\SubCategoria.php on line 38.
+ 1 APPPATH\Models\SubCategoria.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$dados', 'C:\\WEBSERVER\\sites\\painel-admin-cadUnico\\back-end\\app\\Models\\SubCategoria.php', 38)
+ 2 APPPATH\Controllers\sub_categoria.php(25): App\Models\SubCategoria->get_sub_categoria()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('4')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:50:50 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: sub_categoria/4]
+in APPPATH\Models\SubCategoria.php on line 37.
+ 1 APPPATH\Controllers\sub_categoria.php(19): App\Models\SubCategoria->get_sub_categoria()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('4')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:51:02 --> ErrorException: Undefined property: stdClass::$mensagem
+[Method: GET, Route: sub_categoria/31]
+in APPPATH\Models\SubCategoria.php on line 37.
+ 1 APPPATH\Models\SubCategoria.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$mensagem', 'C:\\WEBSERVER\\sites\\painel-admin-cadUnico\\back-end\\app\\Models\\SubCategoria.php', 37)
+ 2 APPPATH\Controllers\sub_categoria.php(19): App\Models\SubCategoria->get_sub_categoria()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('31')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:51:03 --> ErrorException: Undefined property: stdClass::$mensagem
+[Method: GET, Route: sub_categoria/31]
+in APPPATH\Models\SubCategoria.php on line 37.
+ 1 APPPATH\Models\SubCategoria.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$mensagem', 'C:\\WEBSERVER\\sites\\painel-admin-cadUnico\\back-end\\app\\Models\\SubCategoria.php', 37)
+ 2 APPPATH\Controllers\sub_categoria.php(19): App\Models\SubCategoria->get_sub_categoria()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('31')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 12:51:14 --> ErrorException: Undefined property: stdClass::$mensagem
+[Method: GET, Route: sub_categoria/31]
+in APPPATH\Models\SubCategoria.php on line 37.
+ 1 APPPATH\Models\SubCategoria.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$mensagem', 'C:\\WEBSERVER\\sites\\painel-admin-cadUnico\\back-end\\app\\Models\\SubCategoria.php', 37)
+ 2 APPPATH\Controllers\sub_categoria.php(19): App\Models\SubCategoria->get_sub_categoria()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\sub_categoria->show('31')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sub_categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 12:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 12:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 13:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 13:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 13:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 13:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 13:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 13:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 13:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 13:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 13:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 13:49:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 13:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 13:50:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 13:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 13:51:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 13:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 13:51:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 13:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 13:51:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 13:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 13:52:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:19:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:21:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:21:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:22:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:23:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:26:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 14:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:26:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:27:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:28:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:28:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:29:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:29:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:29:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:32:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 14:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:32:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:33:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-09-13 14:35:39 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: login]
+in APPPATH\Models\Login.php on line 34.
+ 1 APPPATH\Filters\Autenticar.php(37): App\Models\Login->autenticar()
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Autenticar->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 14:35:53 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: login]
+in APPPATH\Models\Login.php on line 34.
+ 1 APPPATH\Filters\Autenticar.php(37): App\Models\Login->autenticar()
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Autenticar->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 14:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:36:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:36:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:37:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:37:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:37:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:37:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-09-13 14:38:19 --> Error: Object of class CodeIgniter\HTTP\Response could not be converted to string
+[Method: POST, Route: login]
+in APPPATH\Models\Login.php on line 39.
+ 1 APPPATH\Filters\Autenticar.php(37): App\Models\Login->autenticar()
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Autenticar->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 14:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:38:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:39:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:39:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:39:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:40:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:40:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:40:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:40:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:41:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:41:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:42:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 14:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:44:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:44:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:45:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:46:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:46:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:46:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:47:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:48:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:48:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:48:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:50:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:50:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:50:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:51:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:51:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:52:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:52:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:52:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:52:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:52:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:53:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:53:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:53:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:54:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:54:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:54:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:54:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:55:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:55:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:56:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:56:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 14:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 14:56:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-09-13 15:03:04 --> Error: Call to a member function getAll() on null
+[Method: POST, Route: login]
+in APPPATH\Models\Login.php on line 48.
+ 1 APPPATH\Models\Login.php(33): App\Models\Login->existing_user_database()
+ 2 APPPATH\Filters\Autenticar.php(37): App\Models\Login->autenticar()
+ 3 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Autenticar->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:03:30 --> Error: Call to a member function getAll() on null
+[Method: POST, Route: login]
+in APPPATH\Models\Login.php on line 48.
+ 1 APPPATH\Models\Login.php(33): App\Models\Login->existing_user_database()
+ 2 APPPATH\Filters\Autenticar.php(37): App\Models\Login->autenticar()
+ 3 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Autenticar->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:03:55 --> Error: Call to a member function getAll() on null
+[Method: POST, Route: login]
+in APPPATH\Models\Login.php on line 48.
+ 1 APPPATH\Models\Login.php(33): App\Models\Login->existing_user_database()
+ 2 APPPATH\Filters\Autenticar.php(37): App\Models\Login->autenticar()
+ 3 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Autenticar->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:04:04 --> Error: Call to a member function getAll() on null
+[Method: POST, Route: login]
+in APPPATH\Models\Login.php on line 48.
+ 1 APPPATH\Models\Login.php(33): App\Models\Login->existing_user_database()
+ 2 APPPATH\Filters\Autenticar.php(37): App\Models\Login->autenticar()
+ 3 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Autenticar->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:04:38 --> Error: Call to a member function getAll() on null
+[Method: POST, Route: login]
+in APPPATH\Models\Login.php on line 48.
+ 1 APPPATH\Models\Login.php(33): App\Models\Login->existing_user_database()
+ 2 APPPATH\Filters\Autenticar.php(37): App\Models\Login->autenticar()
+ 3 SYSTEMPATH\Filters\Filters.php(203): App\Filters\Autenticar->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 15:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:04:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:05:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:05:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-09-13 15:06:55 --> Error: Call to undefined method App\Controllers\Acesso::initController()
+[Method: POST, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 904.
+ 1 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:45:55 --> Error: Call to undefined method App\Controllers\Acesso::initController()
+[Method: POST, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 904.
+ 1 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:46:09 --> Error: Call to undefined method App\Controllers\Acesso::initController()
+[Method: POST, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 904.
+ 1 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:46:20 --> Error: Call to undefined method App\Controllers\Acesso::initController()
+[Method: POST, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 904.
+ 1 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 15:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:46:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:48:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:49:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:49:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:49:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:49:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:50:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:50:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:50:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:51:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:51:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:52:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:52:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:52:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:52:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:53:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:53:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:53:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:55:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:55:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:55:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:55:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:56:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:56:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:57:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:57:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:57:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:58:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:58:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:58:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:59:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 15:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 15:59:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:00:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:00:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:00:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:05:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:05:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:05:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:05:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:06:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:07:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:07:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:08:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:08:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:09:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:09:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:10:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:10:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:14:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:14:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:14:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:14:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:15:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:15:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:16:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:16:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:16:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:16:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:17:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:18:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:18:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-13 16:18:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-09-13 16:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 16:19:04 --> WpOrg\Requests\Exception: cURL error 28: Operation timed out after 10016 milliseconds with 0 bytes received
+[Method: GET, Route: cliente/index]
+in VENDORPATH\rmccue\requests\src\Transport\Curl.php on line 490.
+ 1 VENDORPATH\rmccue\requests\src\Transport\Curl.php(219): WpOrg\Requests\Transport\Curl->process_response('', [...])
+ 2 VENDORPATH\rmccue\requests\src\Requests.php(469): WpOrg\Requests\Transport\Curl->request('https://wwws.sescmg.com.br/api/cadun/consumidor/consultar', [...], '{}', [...])
+ 3 VENDORPATH\rmccue\requests\src\Requests.php(342): WpOrg\Requests\Requests::request('https://wwws.sescmg.com.br/api/cadun/consumidor/consultar', [...], '{}', 'POST', [...])
+ 4 APPPATH\Controllers\BaseController.php(248): WpOrg\Requests\Requests::post('https://wwws.sescmg.com.br/api/cadun/consumidor/consultar', [...], '{}')
+ 5 APPPATH\Controllers\Cliente.php(45): App\Controllers\BaseController->request('https://wwws.sescmg.com.br/api/cadun/consumidor/consultar', 'post', '{}', null, true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(61): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-13 16:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 16:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 16:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 16:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
