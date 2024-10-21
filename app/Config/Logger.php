@@ -2,8 +2,8 @@
 
 namespace Config;
 
-use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Log\Handlers\FileHandler;
+use CodeIgniter\Config\BaseConfig;
 
 class Logger extends BaseConfig
 {
@@ -36,9 +36,9 @@ class Logger extends BaseConfig
      * For a live site you'll usually enable Critical or higher (3) to be logged otherwise
      * your log files will fill up very fast.
      *
-     * @var int|list<int>
+     * @var array|int
      */
-    public $threshold = (ENVIRONMENT === 'production') ? 4 : 9;
+    public $threshold = 4;
 
     /**
      * --------------------------------------------------------------------------
@@ -47,8 +47,10 @@ class Logger extends BaseConfig
      *
      * Each item that is logged has an associated date. You can use PHP date
      * codes to set your own date formatting
+     *
+     * @var string
      */
-    public string $dateFormat = 'Y-m-d H:i:s';
+    public $dateFormat = 'Y-m-d H:i:s';
 
     /**
      * --------------------------------------------------------------------------
@@ -58,7 +60,7 @@ class Logger extends BaseConfig
      * The logging system supports multiple actions to be taken when something
      * is logged. This is done by allowing for multiple Handlers, special classes
      * designed to write the log to their chosen destinations, whether that is
-     * a file on the getServer, a cloud-based service, or even taking actions such
+     * a file on the server, a cloud-based service, or even taking actions such
      * as emailing the dev team.
      *
      * Each handler is defined by the class name used for that handler, and it
@@ -73,15 +75,17 @@ class Logger extends BaseConfig
      * Handlers are executed in the order defined in this array, starting with
      * the handler on top and continuing down.
      *
-     * @var array<class-string, array<string, int|list<string>|string>>
+     * @var array
      */
-    public array $handlers = [
+    public $handlers = [
+
         /*
          * --------------------------------------------------------------------
          * File Handler
          * --------------------------------------------------------------------
          */
         FileHandler::class => [
+
             // The log levels that this handler will handle.
             'handles' => [
                 'critical',
@@ -99,7 +103,7 @@ class Logger extends BaseConfig
              * An extension of 'php' allows for protecting the log files via basic
              * scripting, when they are to be stored under a publicly accessible directory.
              *
-             * NOTE: Leaving it blank will default to 'log'.
+             * Note: Leaving it blank will default to 'log'.
              */
             'fileExtension' => '',
 
@@ -137,14 +141,14 @@ class Logger extends BaseConfig
          * Uncomment this block to use it.
          */
         // 'CodeIgniter\Log\Handlers\ErrorlogHandler' => [
-        //     /* The log levels this handler can handle. */
-        //     'handles' => ['critical', 'alert', 'emergency', 'debug', 'error', 'info', 'notice', 'warning'],
+        // 		/* The log levels this handler can handle. */
+        // 		'handles' => ['critical', 'alert', 'emergency', 'debug', 'error', 'info', 'notice', 'warning'],
         //
-        //     /*
-        //     * The message type where the error should go. Can be 0 or 4, or use the
-        //     * class constants: `ErrorlogHandler::TYPE_OS` (0) or `ErrorlogHandler::TYPE_SAPI` (4)
-        //     */
-        //     'messageType' => 0,
+        // 		/*
+        // 		 * The message type where the error should go. Can be 0 or 4, or use the
+        // 		 * class constants: `ErrorlogHandler::TYPE_OS` (0) or `ErrorlogHandler::TYPE_SAPI` (4)
+        // 		 */
+        // 		'messageType' => 0,
         // ],
     ];
 }

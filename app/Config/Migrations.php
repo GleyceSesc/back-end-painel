@@ -15,8 +15,10 @@ class Migrations extends BaseConfig
      *
      * You should enable migrations whenever you intend to do a schema migration
      * and disable it back when you're done.
+     *
+     * @var bool
      */
-    public bool $enabled = true;
+    public $enabled = true;
 
     /**
      * --------------------------------------------------------------------------
@@ -25,9 +27,13 @@ class Migrations extends BaseConfig
      *
      * This is the name of the table that will store the current migrations state.
      * When migrations runs it will store in a database table which migration
-     * files have already been run.
+     * level the system is at. It then compares the migration level in this
+     * table to the $config['migration_version'] if they are not the same it
+     * will migrate up. This must be set.
+     *
+     * @var string
      */
-    public string $table = 'migrations';
+    public $table = 'migrations';
 
     /**
      * --------------------------------------------------------------------------
@@ -36,15 +42,14 @@ class Migrations extends BaseConfig
      *
      * This is the format that will be used when creating new migrations
      * using the CLI command:
-     *   > php spark make:migration
+     *   > php spark migrate:create
      *
-     * NOTE: if you set an unsupported format, migration runner will not find
-     *       your migration files.
-     *
-     * Supported formats:
+     * Typical formats:
      * - YmdHis_
      * - Y-m-d-His_
      * - Y_m_d_His_
+     *
+     * @var string
      */
-    public string $timestampFormat = 'Y-m-d-His_';
+    public $timestampFormat = 'Y-m-d-His_';
 }

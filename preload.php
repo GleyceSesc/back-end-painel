@@ -16,8 +16,7 @@
  * See https://www.php.net/manual/en/opcache.preloading.php
  *
  * How to Use:
- *   0. Copy this file to your project root folder.
- *   1. Set the $paths property of the preload class below.
+ *   1. Set preload::$paths.
  *   2. Set opcache.preload in php.ini.
  *     php.ini:
  *     opcache.preload=/path/to/preload.php
@@ -49,12 +48,11 @@ class preload
      */
     private array $paths = [
         [
-            'include' => __DIR__ . '/vendor/codeigniter4/framework/system', // Change this path if using manual installation
+            'include' => __DIR__ . '/vendor/codeigniter4/framework/system',
             'exclude' => [
                 // Not needed if you don't use them.
                 '/system/Database/OCI8/',
                 '/system/Database/Postgre/',
-                '/system/Database/SQLite3/',
                 '/system/Database/SQLSRV/',
                 // Not needed.
                 '/system/Database/Seeder.php',
@@ -66,7 +64,6 @@ class preload
                 '/system/ComposerScripts.php',
                 '/Views/',
                 // Errors occur.
-                '/system/Config/AuthLdap',
                 '/system/Config/Routes.php',
                 '/system/ThirdParty/',
             ],

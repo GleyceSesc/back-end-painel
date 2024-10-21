@@ -22,9 +22,9 @@ class Format extends BaseConfig
      * These formats are only checked when the data passed to the respond()
      * method is an array.
      *
-     * @var list<string>
+     * @var string[]
      */
-    public array $supportedResponseFormats = [
+    public $supportedResponseFormats = [
         'application/json',
         'application/xml', // machine-readable XML
         'text/xml', // human-readable XML
@@ -41,7 +41,7 @@ class Format extends BaseConfig
      *
      * @var array<string, string>
      */
-    public array $formatters = [
+    public $formatters = [
         'application/json' => JSONFormatter::class,
         'application/xml'  => XMLFormatter::class,
         'text/xml'         => XMLFormatter::class,
@@ -57,7 +57,7 @@ class Format extends BaseConfig
      *
      * @var array<string, int>
      */
-    public array $formatterOptions = [
+    public $formatterOptions = [
         'application/json' => JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES,
         'application/xml'  => 0,
         'text/xml'         => 0,

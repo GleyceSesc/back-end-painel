@@ -1,5 +1,5 @@
 # Disable directory browsing
-Options -Indexes
+Options All -Indexes
 
 # ----------------------------------------------------------------------
 # Rewrite engine
@@ -45,5 +45,5 @@ Options -Indexes
 </IfModule>
 
 # Disable server signature start
-ServerSignature Off
+	ServerSignature Off
 # Disable server signature end
